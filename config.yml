@@ -1,0 +1,34 @@
+default:
+  server:
+    host: 'localhost:3000'
+    port: 3000
+development:
+  server:
+    host: 'localhost:3000'
+    port: 3000
+  mongoose:
+    db: //
+    port: 3000
+  tokens:
+    jwtSecret: //
+    TTL: '10'
+    secretKey: ''
+    priorityLevel: '-A'
+    linkDuration: ''
+  firebase:
+    projectId: //
+    clientEmail: //
+    privateKey: ""
+    databaseURL: '//'
+  email:
+    host: ''
+  dwolla:
+    key: '//'
+    secret: '//'
+    accessToken: '//'
+    refreshToken: '//'
+    accountId: '//---'
+    environment: '//'
+    user: '//@//.me'
+    password: '//@//$$$'
+    fundingUrl: ''
